@@ -4,11 +4,10 @@ name = "persistent"
 authors = ["Jonathan Reem <jonathan.reem@gmail.com>"]
 version = "0.4.0"
 description = "A set of middleware for sharing server-global data in Iron."
-repository = "https://github.com/iron/persistent"
 documentation = "http://ironframework.io/doc/persistent/index.html"
 license = "MIT"
 keywords = ["iron", "web", "persistence", "sharing", "global"]
 
 [dependencies]
-iron = ">= 0.5, < 0.7"
-plugin = "0.2"
+iron = { git = "https://github.com/ayourtch/iron" }
+plugin = { git = "https://github.com/ayourtch/rust-plugin" } # "0.2"
